@@ -1,10 +1,15 @@
 package com.apm29.puppeyvideo;
 
+import android.Manifest;
 import android.animation.ObjectAnimator;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.view.PagerAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -61,7 +66,14 @@ public class VideoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video);
         ButterKnife.inject(this);
-        tvUuid.setText(String.format("您的设备唯一标志:%s", CommonUtils.getMyUUID(this)));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            int granted = checkSelfPermission(Manifest.permission.READ_PHONE_STATE);
+            if (granted== PackageManager.PERMISSION_DENIED){
+                ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.READ_PHONE_STATE},100);
+            }else
+            tvUuid.setText(String.format("您的设备唯一标志:%s", CommonUtils.getMyUUID(this)));
+        }else
+            tvUuid.setText(String.format("您的设备唯一标志:%s", CommonUtils.getMyUUID(this)));
     }
 
 
