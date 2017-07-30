@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#666666</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="zhaosha_default_gray_bg">#f0f6f7</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#44000000</color>
+    <color name="white_color">#ffffff</color>
+    <color name="zhaosha_default_textcolor">#333333</color>
+    <color name="zhaosha_light_orange">#ffc11b</color>
+    <color name="zhaosha_orange">#ff9900</color>
+    <color name="zhaosha_dark_orange">#f08000</color>
+    <color name="zhaosha_bright_orange">#ff6600</color>
+
+    <color name="zhaosha_blue">#2294fb</color>
+    <color name="zhaosha_bright_blue">#2294f6</color>
+
+    <color name="main_text_color">#333333</color>
+    <color name="light_text_color">#666666</color>
+    <color name="hint_text_color">#999999</color>
+    <color name="zhaosha_seperator_color">#d1d1d1</color>
+    <color name="zhaosha_gray_bg">#e5e5e5</color>
+    <color name="zhaosha_light_gray_bg">#f6f6f6</color>
+
+    <color name="utility_tool_hint_color">#fff5e5</color>
+
+
+    <!--其它控件用到的颜色-->
+    <bool name="default_circle_indicator_centered">true</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+
+</resources>

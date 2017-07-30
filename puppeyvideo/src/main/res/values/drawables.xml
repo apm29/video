@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="nonecolor">#00000000</drawable>
+    <drawable name="headbg">#ff9900</drawable>
+    
+    <drawable name="orange_1_bg">#10000000</drawable>
+    <drawable name="orange_2_bg">#10000000</drawable>
+    <drawable name="orange_3_bg">#22ff9900</drawable>
+    <drawable name="orange_4_bg">#33ff9900</drawable>
+    <drawable name="orange_5_bg">#44ff9900</drawable>
+    
+    <drawable name="orange_6_bg">#55ff9900</drawable>
+    <drawable name="orange_7_bg">#66ff9900</drawable>
+    <drawable name="orange_8_bg">#77ff9900</drawable>
+    <drawable name="orange_9_bg">#88ff9900</drawable>
+    <drawable name="orange_10_bg">#99ff9900</drawable>
+    
+    <drawable name="orange_11_bg">#aaff9900</drawable>
+    <drawable name="orange_12_bg">#bbff9900</drawable>
+    <drawable name="orange_13_bg">#ccff9900</drawable>
+    <drawable name="orange_14_bg">#ddff9900</drawable>
+    <drawable name="orange_15_bg">#ffff9900</drawable>
+    
+    <drawable name="drawable_white">#ffffff</drawable>
+    
+    
+    
+</resources>

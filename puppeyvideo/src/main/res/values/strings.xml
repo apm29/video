@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">zhaoshaAPP</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_home">首页</string>
+    <string name="navigation_mall">商城</string>
+    <string name="navigation_message">消息</string>
+    <string name="navigation_center">我的</string>
+    <string name="navigation_add">添加</string>
+    <string name="loading_data_please_wait">数据载入中,请稍候...</string>
+    <string name="loading_data_error">信息加载错误,请重试.</string>
+
+
+    <!--推荐好友activity-->
+    <string name="my_invite_record"><u>查看推荐记录</u></string>
+    <string name="title_activity_wtb">求购详情</string>
+
+    <string name="action_share">分享</string>
+    <string name="action_search">搜索</string>
+    <string name="action_favour">收藏</string>
+    <string name="action_shop">购物车</string>
+    <string name="action_shop_edit">编辑</string>
+    <string name="action_shop_done">删除</string>
+    <string name="action_order_refresh">刷新</string>
+    <string name="action_address_delete">删除</string>
+    <string name="action_more">更多</string>
+
+    <string name="title_activity_add_price">AddPriceActivity</string>
+    <string name="title_activity_add_2_cart">Add2CartActivity</string>
+    <string name="title_activity_add_price_success">AddPriceSuccessActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_verify_mobile">VerifyMobileActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_wtb_list">WtbListActivity</string>
+
+    <string name="cube_views_load_more_loading">数据加载中,请稍候...</string>
+    <string name="cube_views_load_more_click_to_load_more">点击加载更多</string>
+    <string name="cube_views_load_more_loaded_no_more">全部数据加载完毕</string>
+    <string name="cube_views_load_more_loaded_empty">数据为空</string>
+    <string name="cube_views_load_more_error">加载失败,点击重试</string>
+
+    <string name="please_grant_mobile_permission">请到设置中为应用授权拨打电话的权限</string>
+
+
+    <string-array name="yarn_conversion_pop">
+        <item>Nm 公制支数</item>
+        <item>NeB 人棉/棉英支</item>
+        <item>NeK 精梳毛纱英支</item>
+        <item>NeL 亚麻纱英支</item>
+        <item>Dtex 分特克斯</item>
+        <item>Den 旦尼尔</item>
+        <item>Tex 特克斯</item>
+    </string-array>
+
+    <string-array name="yarn_conversion_break">
+        <item>Nm\n公制支数</item>
+        <item>NeB\n人棉/棉英支</item>
+        <item>NeK\n精梳毛纱英支</item>
+        <item>NeL\n亚麻纱英支</item>
+        <item>Dtex\n分特克斯</item>
+        <item>Den\n旦尼尔</item>
+        <item>Tex\n特克斯</item>
+    </string-array>
+
+    <string-array name="yarn_conversion_name">
+        <item>公制支数</item>
+        <item>人棉/棉英支</item>
+        <item>精梳毛纱英支</item>
+        <item>亚麻纱英支</item>
+        <item>分特克斯</item>
+        <item>旦尼尔</item>
+        <item>特克斯</item>
+    </string-array>
+
+
+    <string-array name="length_weight_pop">
+        <item>NeB 英制支数</item>
+        <item>Nm 公制支数</item>
+        <item>Dtex 分特克斯</item>
+        <item>Tex 特克斯</item>
+        <item>Den 旦尼尔</item>
+    </string-array>
+
+    <string-array name="length_weight_break">
+        <item>NeB\n英制支数</item>
+        <item>Nm\n公制支数</item>
+        <item>Dtex\n分特克斯</item>
+        <item>Tex\n特克斯</item>
+        <item>Den\n旦尼尔</item>
+    </string-array>
+
+    <string-array name="length_weight_breaf">
+        <item>备注：英制支数=L/(G*840)  &#160;L为纱或丝的长度(码), G为纱或丝的重量(磅).\n1克=0.0022046磅，1米=1.0936133码。</item>
+        <item>备注：公制支数=L/G  &#160;L为纱或丝的长度(米）, G为纱或丝的重量(克).</item>
+        <item>备注：分特克斯=(G/L)*10000  &#160;L为纱或丝长度(米）, G为纱或丝的重量(克).</item>
+        <item>备注：特克斯=(G/L)*1000  &#160;L为纱或丝长度(米), G为纱或丝的重量(克).</item>
+        <item>备注：旦尼尔=(G/L)*9000  &#160;L为纱或丝长度(米), G为纱或丝的重量(克).</item>
+    </string-array>
+    <string name="title_activity_sku">SKUActivity</string>
+    <string name="title_activity_skuaddone">SKUAddoneActivity</string>
+    <string name="title_activity_industry_selector">IndustrySelectorActivity</string>
+    <string name="title_activity_skuadd_step1">SKUAddStep1Activity</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="title_string_share_friends">找纱网送您50积分,好友喊你一起来找纱</string>
+
+    <string name="app_tip">微信支付结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="title_activity_order_list">全部订单</string>
+
+    <string name="order_all_list">全部</string>
+    <string name="order_pending_pay">待支付</string>
+    <string name="order_pending_deliver">待发货</string>
+    <string name="order_pending_receiving">待收获</string>
+    <string name="order_complete">交易完成</string>
+    <string name="order_closed">交易关闭</string>
+
+
+</resources>
